@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7d23e23671b354091a5eb8a49c2235, type: 3}
+  m_Name: gokart
+  m_EditorClassIdentifier: 
+  stack:
+  - {fileID: 21300000, guid: bde84285b80d2944aa88caf0e26dfe36, type: 3}
+  - {fileID: 21300000, guid: a4d00df2b4b776e4c81b47ee1e242373, type: 3}
+  - {fileID: 21300000, guid: 59a096883d358234d8a1908efb7ef63a, type: 3}
+  - {fileID: 21300000, guid: 823daf42c527d734fb416e36c383d40f, type: 3}
