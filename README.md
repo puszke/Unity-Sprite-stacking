@@ -7,7 +7,7 @@ Here I have a few examples how everything looks.
 
 <h3>How does it work?</h3>
 This script generates a fake 3D object from 2D sprites. You can adjust the rotation, and offset of each segment.<br>
-
+<br>
 <img src="https://media.giphy.com/media/UQEvDaptCSFfukdzcR/giphy.gif"/>
 
 <h3>How to use it?</h3>
