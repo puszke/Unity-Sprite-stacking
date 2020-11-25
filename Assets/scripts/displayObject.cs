@@ -5,7 +5,6 @@ using UnityEngine;
 public class displayObject : MonoBehaviour
 {
     public stackobject stackObject;
-    public Vector3 center; //Use when your object dosen't rotate on it's original center
     public Vector3 rotation;
     public Vector3 offset = new Vector3(0, 0.05f, 0);
     public int orderInLayer = 0;
@@ -23,7 +22,7 @@ public class displayObject : MonoBehaviour
             SpriteRenderer sp = stackPart.AddComponent<SpriteRenderer>();
             sp.sprite = stackObject.stack[i];
             stackPart.transform.parent = parts.transform;
-            stackPart.transform.position = center;
+            stackPart.transform.position = Vector3.zero;
            
             partList.Add(stackPart);
         }
@@ -37,8 +36,6 @@ public class displayObject : MonoBehaviour
     {
         int s = orderInLayer;
         Vector3 v = Vector3.zero;
-        //GameObject centerOB = gameObject.transform.Find("Parts").gameObject;
-        //centerOB.transform.position = center;
         foreach (GameObject part in partList)
         {
             part.transform.localPosition = v;
